@@ -15,6 +15,7 @@ span{
 }
 
 .container-991{
+    height: 100vh;
     margin: 0px auto;
     max-width: 991px;
 }
@@ -24,6 +25,9 @@ span{
 }
 
 .col-navi{
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
     width: 100vw
 }
 
@@ -46,6 +50,12 @@ span{
 
 .col-30-jumbo{
     width: 30%;
+}
+
+.col-100{
+    margin-top: 50px;
+    width: 100%;
+    border: solid 1px lightgray;
 }
 
 .btn{
@@ -166,7 +176,7 @@ h1{
 
 /* main */
 
-
+/*  cols 33 */
 h2{
     margin-top: 130px;
     font-size: 2.5rem;
@@ -233,4 +243,39 @@ li{
     display: flex;
     margin: 25px 0px;
     font-weight: 400;
+}
+/*  cols 100 */
+
+.content-col-100{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.btn-service{
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    padding: 10px 30px;
+}
+
+.subsciprion-plan-col-100{
+    margin: 15px 0px;
+}
+
+.text-col-100{
+    width: 65%;
+    margin: 30px 30px;
+}
+
+.text-col-100 > h3{
+    font-size: 1.6rem;
+    margin-bottom: 17px;
+}
+
+.text-col-100 > h5{
+    margin-bottom: 50px;
+}
+
+.text-col-100 > p{
+    font-size: 0.9rem;
 }
