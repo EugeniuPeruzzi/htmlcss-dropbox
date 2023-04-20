@@ -119,7 +119,39 @@ span{
     text-align: center;
     border-bottom: solid 1px lightgray;
 }
+/* drop down menu */
+.drop-down-content{
+    min-width: 200px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-top: 12px;
+    padding: 8px;
+    z-index: 1;
+}
+.drop-down:hover .drop-down-content{
+    display: block;
+    position: absolute;
+}
 
+
+.navi-choice-left, .navi-choice-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.drop-content:visited{
+    color: #000;
+}
+
+.drop-content{
+    display: block;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+/* drop down menu */
 
 /* end layout */
 /* header content first part */
