@@ -374,7 +374,7 @@ li{
 }
 
 .image-designit > img{
-    width: calc(100% - 400px);
+    width: 50%;
 } 
 
 .content-logo-center > p , span{
@@ -490,4 +490,23 @@ width: 100%;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ffffffa1;
     margin: 30px 0px 40px 0px;
+}
+
+select{
+    color: #ffffffa1;
+    background-color: black;
+    border: none;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.content-footer{
+    display: flex;
+}
+
+.fa-earth-americas{
+    margin-right: 10px;
+    color: #ffffffa1;
 }
