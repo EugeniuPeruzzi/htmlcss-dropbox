@@ -125,7 +125,7 @@ span{
     display: none;
     position: absolute;
     background-color: white;
-    margin-top: 12px;
+    margin-top: 0px;
     padding: 8px;
     z-index: 1;
 }
