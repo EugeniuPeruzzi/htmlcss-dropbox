@@ -93,6 +93,7 @@ span{
 
 .col-30-flex{
     width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
 
 .row-flex{
@@ -103,6 +104,7 @@ span{
 }
 
 .col-50{
+    height: calc(100% / 2);
     width: calc(100% / 2);
     position: relative;
 } 
@@ -371,6 +373,7 @@ li{
 .content-logo-center{
     padding: 50px;
     background-color: #F5F5F5;
+    height: 100%;
 }
 
 .image-designit > img{
@@ -398,7 +401,7 @@ li{
 }
 
 .boxes > img{
-    width: 150px;
+    width: 200px;
     filter: brightness(0) invert(1);
     position: absolute;
     top: 50%;
